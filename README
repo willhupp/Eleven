@@ -1,0 +1,21 @@
+Fifteen Game
+
+William Hupp
+Marc Singer 
+
+Objective: On a 4x4 board, with blocks 1-15, and an empty block, the user
+ should attempt to put the blocks in numerical order with the empty block
+at the end. This is accomplished by clicking on a block adjadent to the
+empty block. This swaps the blocks. 
+
+Interface:
+New Game button starts the game over.
+Quit button quits Fifteen.
+
+The game is an application.
+
+We implemented the new game and quit features. Changed the color
+scheme and look and feel of the board. We also added a title to
+the application and changed the font layout of buttons.
+
+All work was done using pair programming.
