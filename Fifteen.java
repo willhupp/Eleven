@@ -160,29 +160,21 @@ public class Fifteen extends JPanel
     
     public void isWin(JButton[][] in)
     {	
-    	//sorry
-    	if(buttonArray[0][0].getText().equals("1"))
-    		if(buttonArray[0][1].getText().equals("2"))
-    			if(buttonArray[0][2].getText().equals("3"))
-    				if(buttonArray[0][3].getText().equals("4"))
-    					if(buttonArray[1][0].getText().equals("5"))
-    						if(buttonArray[1][1].getText().equals("6"))
-    							if(buttonArray[1][2].getText().equals("7"))
-    								if(buttonArray[1][3].getText().equals("8"))
-    									if(buttonArray[2][0].getText().equals("9"))
-    										if(buttonArray[2][1].getText().equals("10"))
-    											if(buttonArray[2][2].getText().equals("11"))
-    												if(buttonArray[2][3].getText().equals("12"))
-    													if(buttonArray[3][0].getText().equals("13"))
-    														if(buttonArray[3][1].getText().equals("14"))
-    															if(buttonArray[3][2].getText().equals("15"))
-    																{
-	    																String winmessage= "YOU WIN";
-	    																JOptionPane.showMessageDialog(null, winmessage, "YOU WIN ", JOptionPane.INFORMATION_MESSAGE);		
-	    																newGame(false);
-    																}
-    									 
-    
+    	int test=1;
+	int flag=0;
+    	for(int i=0; i<4; i++){
+		for(int x=0; x<3; x++){
+			if(buttonArray[i][x].getText().equals(Integer.tostring(test)){
+				test++;
+			}
+			else{flag=1;}
+		}
+	}	
+	if(flag!=1){
+                String winmessage= "YOU WIN";
+	    	JOptionPane.showMessageDialog(null, winmessage, "YOU WIN ", JOptionPane.INFORMATION_MESSAGE);		
+	    	newGame(false);
+	}
     }
  
     public static void main(String[] args) 
