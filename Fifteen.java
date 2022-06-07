@@ -3,7 +3,6 @@
 William Hupp
 Marc Singer
 Fifteen.java
-COP3252 Final Project 
 */
 import java.awt.BasicStroke;
 import java.awt.Color;
