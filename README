@@ -12,10 +12,4 @@ Interface:
 New Game button starts the game over.
 Quit button quits Fifteen.
 
-The game is an application.
-
-We implemented the new game and quit features. Changed the color
-scheme and look and feel of the board. We also added a title to
-the application and changed the font layout of buttons.
-
 All work was done using pair programming.
